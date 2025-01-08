@@ -144,8 +144,12 @@ Have questions, feedback, or ideas? Reach out to:
 
 - **Callum Maystone**
   Founder, Innovator, and Builder
-  [LinkedIn](https://www.linkedin.com/in/callummaystone)
-  Brisbane, Australia
+  [LinkedIn]([https://www.linkedin.com/in/callummaystone](https://www.linkedin.com/in/callum-maystone-57b00932/))
+  [Medium](https://medium.com/the-first-digit/slappai-active-graphs-the-foundation-of-intelligence-89ec758005bc)
+  [Kaggle](https://www.kaggle.com/callummaystone)
+  [GitHub](https://github.com/ConicuConsulting)
+  [Twitter](https://x.com/PeoplesGoose)
+  🚚 (In the middle of moving back to) Brisbane, Australia
 
 ---
 
