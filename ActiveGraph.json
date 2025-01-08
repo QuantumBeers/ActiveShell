@@ -1,0 +1,120 @@
+{
+  "Name": "HealthcareNetwork",
+  "Type": "JSON",
+  "Metadata": {
+    "Date": "2025-01-08T19:53:39.208127+10:30",
+    "Creator": "Callum"
+  },
+  "Nodes": [
+    {
+      "Name": "PatientA",
+      "Type": "Individual",
+      "Domain": "Healthcare",
+      "Parent": "",
+      "Child": "",
+      "Metadata": {}
+    },
+    {
+      "Name": "PharmacyA",
+      "Type": "Pharmacy",
+      "Domain": "Healthcare",
+      "Parent": "",
+      "Child": "",
+      "Metadata": {
+        "Revenue": 1000000,
+        "Employees": 25,
+        "Location": "Urban"
+      }
+    },
+    {
+      "Name": "PBMA",
+      "Type": "Organization",
+      "Domain": "PBM",
+      "Parent": "",
+      "Child": "",
+      "Metadata": {}
+    },
+    {
+      "Name": "DistributorA",
+      "Type": "Organization",
+      "Domain": "SupplyChain",
+      "Parent": "",
+      "Child": "",
+      "Metadata": {
+        "Inventory": 500
+      }
+    },
+    {
+      "Name": "ManufacturerA",
+      "Type": "Organization",
+      "Domain": "SupplyChain",
+      "Parent": "",
+      "Child": "",
+      "Metadata": {
+        "Products": 120
+      }
+    },
+    {
+      "Name": "PharmacyB",
+      "Type": "Pharmacy",
+      "Domain": "Healthcare",
+      "Parent": "",
+      "Child": "",
+      "Metadata": {
+        "Rating": 5.0,
+        "Address": "999 Updated Lane"
+      }
+    },
+    {
+      "Name": "PharmacyC",
+      "Type": "Pharmacy",
+      "Domain": "Healthcare",
+      "Parent": "",
+      "Child": "",
+      "Metadata": {
+        "Revenue": 500000,
+        "Employees": 10,
+        "Location": "Rural",
+        "Rating": 3.2,
+        "Address": "101 Care Drive"
+      }
+    },
+    {
+      "Name": "DoctorA",
+      "Type": "Doctor",
+      "Domain": "",
+      "Parent": "",
+      "Child": "",
+      "Metadata": {
+        "Specialty": "Cardiology",
+        "Patients": 120
+      }
+    }
+  ],
+  "Edges": [
+    {
+      "Source": "DistributorA",
+      "Target": "ManufacturerA",
+      "Relationship": "SourcesFrom",
+      "Timestamp": "2025-01-08T19:55:36.134178+10:30"
+    },
+    {
+      "Source": "PatientA",
+      "Target": "PharmacyA",
+      "Relationship": "GetsMedsFrom",
+      "Timestamp": "2025-01-08T19:53:39.352922+10:30"
+    },
+    {
+      "Source": "PBMA",
+      "Target": "DistributorA",
+      "Relationship": "Supplies",
+      "Timestamp": "2025-01-08T19:55:35.368302+10:30"
+    },
+    {
+      "Source": "PharmacyA",
+      "Target": "PBMA",
+      "Relationship": "PartnersWith",
+      "Timestamp": "2025-01-08T19:59:31.335493+10:30"
+    }
+  ]
+}
