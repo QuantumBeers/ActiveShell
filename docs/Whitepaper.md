@@ -83,6 +83,6 @@ B --> C[Cube4D: Data Layer 2]
 ## Conclusion
 ActiveGraph Networks, Cube4D, and ActiveShell redefine how we interact with data. This system offers a scalable, intuitive, and transparent framework for solving complex, multi-dimensional problems. As we embrace dynamic intelligence, this paradigm shift will drive innovation across industries.
 
-For inquiries, collaboration, or access to implementation examples, visit [ActiveGraph Networks](https://github.com/example).
+For inquiries, collaboration, or access to implementation examples, visit [ActiveGraph Networks](https://github.com/ConicuConsulting/ActiveGraphNetworks).
 
 ---
