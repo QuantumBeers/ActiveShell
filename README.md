@@ -151,7 +151,7 @@ Have questions, feedback, or ideas? Reach out to:
 
   [Kaggle](https://www.kaggle.com/callummaystone)
 
-  [GitHub](https://github.com/ConicuConsulting)
+  [GitHub](https://github.com/QuantumBeers/ActiveShell)
 
   [Twitter](https://x.com/PeoplesGoose)
 
